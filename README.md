@@ -68,6 +68,22 @@ The **ESP32-S3-Zero** is an ultra-compact mini development board powered by the 
 
 ---
 
+## 🧊 3D CAD Model (Fusion 360, STEP, STL, OBJ)
+
+This repository includes a precision 3D CAD model matching the exact physical dimensions of the Waveshare ESP32-S3-Zero:
+
+* **3D STL Mesh (`ESP32-S3-Zero.stl`)**: Ready for 3D printing test brackets or enclosure design.
+* **Textured OBJ / MTL (`ESP32-S3-Zero.obj`, `ESP32-S3-Zero.mtl`)**: Colored realistic model with Black PCB, Gold pads, Chrome USB-C, and Ceramic antenna for realistic 3D renderings in Blender or CAD.
+* **Autodesk Fusion 360 Automated Script (`Create_ESP32_S3_Zero.py`)**: A native Fusion 360 Python script that programmatically generates the full parametric 3D body inside Fusion 360 with a single click and exports STEP format.
+
+### How to Run the 3D Script in Autodesk Fusion 360:
+1. In Autodesk Fusion 360, press **Shift + S** (or go to **UTILITIES** -> **ADD-INS** -> **Scripts and Add-Ins**).
+2. Under the **Scripts** tab, locate **`Create_ESP32_S3_Zero`** under *My Scripts*.
+3. Click **Run**.
+4. Fusion 360 will automatically generate the 3D component with all features, PCB substrate, header holes, USB-C port, SoC, buttons, and antenna!
+
+---
+
 ## 🚀 How to Install & Use
 
 ### In Autodesk EAGLE (Version 7.x, 8.x, 9.x):
